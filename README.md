@@ -1,2 +1,4 @@
 # todo-app
-TODO Application in Javascript with local storage.
+Simple TODO Application in Javascript with local storage.
+
+Just clone the repository and run index.js file.
