@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    
+    <!-- Compiled and minified CSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+
+    <!-- Compiled and minified JavaScript -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+            
+    <title>Todo Application</title>
+</head>
+<body>
+    <div class="row justify">
+        <div id="container" class="col l3 m12 s12 offset-l4 z-depth-4">
+            <div id="controls" >
+                <form action="#">
+                    <h3 class="center row">Todo</h3>
+                    <div class="row">
+                        <input type="text" id="input"><br>
+                    </div>
+                    <div class="row">
+                        <button type="button" id="add" class="btn waves-effect waves-light green darken-1 col l6 s6 offset-l3 offset-s3" onclick="addItem()">Add new task</button><br>
+                    <!-- </div>
+                    <div class="row"> -->
+                        <button type="button" id="remove" class="btn waves-effect waves-light red  darken-4 col s8 offset-l2 offset-s2" onclick="removeItem()">Remove completed task</button>
+                    </div>    
+                </div>
+            <div class="row">    
+                <ul id="list">
+                </ul>
+            </div>
+        </form>
+            </div>
+        </div>   
+</body>
+<script src="todo.js"> </script>
+</html>

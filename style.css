@@ -1,0 +1,59 @@
+body{
+   background-color: white;
+   height: 100%;
+}
+
+#container{
+    border: 2px solid;
+    border-color: #5D001E;
+    background-color: #fff9c4 ;
+    border-radius: 10px;
+    margin-top: 10%;
+}
+
+#controls{
+    margin: 15px;
+}
+
+#list{
+    margin: 15px;
+}
+
+#container ul li{
+    opacity: 0;
+    transition: opacity 0.5 ease-in-out;
+}
+
+#container .myCheck{
+    opacity: 1;
+
+}
+
+.visual{
+    opacity: 1 !important;
+}
+
+#input{
+    border: 1.5px solid;
+    border-color: #5D001E;
+    border-radius: 6px;
+    background-color: white;
+}
+
+.warningOn{
+    opacity: 1;
+    background-color: red;
+    width: 75%;
+    margin-left: 25%;
+    padding: 3%;
+    border-radius: 10px;
+}
+
+.warningOff{
+    opacity: 0;
+}
+
+.btn{
+    margin: 4px;
+   
+}
